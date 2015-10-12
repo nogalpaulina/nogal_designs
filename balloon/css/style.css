@@ -1,0 +1,36 @@
+
+#wrapper {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	color: #333;
+}
+
+ul.navbar-header {
+	list-style: none;
+}
+
+.navbar-header li {
+	display: inline;
+	padding-left: 30px;
+}
+
+.margin-top-40px {
+	margin-top: 40px;
+}
+
+#header {
+  background: transparent url('../img/baloons.jpg') no-repeat scroll top center;
+  height: 500px;
+  margin-bottom: 10px;
+}
+
+#content {
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+.footer {
+	text-align: center;
+}
