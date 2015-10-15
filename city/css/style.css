@@ -1,0 +1,103 @@
+html, body {
+ 	position: relative;
+	background: url(../img/c1.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-size: cover;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+ 	margin-left: 30px;
+}
+
+a.navbar-brand {
+	color: #333;
+	font-family: 'Philosopher', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.navbar-nav li a {
+	color: #333;
+	font-family: 'Philosopher', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.navbar-nav li a:hover {
+	font-size: 30px;
+	background-color: transparent;
+}
+
+.container{
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#image {
+	position: fixed;
+	position: relative;
+	z-index: -1;
+	height: 710px;
+	width: 1500px;
+}
+
+#content {
+	margin: 0 auto;
+	min-width: 100%;
+	margin-top: -10px;
+	background-color: #333;
+	position: relative;
+	z-index: 1;
+}
+
+#content p {
+	padding: 40px 30px;
+	font-size: 18px;
+	float: left;
+	font-family: 'Philosopher', sans-serif;
+	color: white;
+}
+
+#content img {
+	padding: 18px 0 18px 0;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+#lower-box{
+	position: absolute;
+	margin: 155px auto 0 auto;
+	padding: 20px 5px;
+	width: 100%;
+	background-color: #333; 
+	position: relative;
+	z-index: 1;
+  	
+}
+
+#lower-box h2 {
+	font-size: 19px;
+	text-align: center;
+  	font-family: 'Philosopher', sans-serif;
+	color: white;
+}
