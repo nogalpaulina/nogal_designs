@@ -1,0 +1,104 @@
+body {
+	background: url(../img/background11.jpg);
+	/*font-family: 'Josefin Slab', serif;*/
+	font-family: 'Courgette', cursive;
+}
+
+.navbar-default {
+	background-color: #A5A69F;
+}
+
+.navbar-header {
+	padding: 10px;
+	background-color: #A5A69F;
+}
+
+.navbar-default .navbar-brand:hover {
+  	  color: #333;
+}
+
+.navbar-header a {
+	color: #333;
+	font-size: 35px;
+}
+
+.navbar-nav a {
+	margin-top: 15px;
+}
+
+.page-header{
+	background-image: url(../img/background5.jpg);
+}
+
+.page-header h2 {
+	color: #333;
+	font-size: 50px;
+	float: right;
+	padding-top: 50px;
+}
+
+p.lead {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.centered {
+	text-align: center;
+}
+
+.content h3, h2, p {
+	color: #F5F5DC;
+}
+
+.wedding {
+	background-image: url(../img/background5.jpg);
+	padding: 20px 50px;
+}
+
+.wedding h1 {
+	color: #F5F5DC;
+}
+
+.wedding .box{
+	text-align: center;
+	background-color: #A5A69F;
+	color: #F5F5DC;
+}
+
+img.center {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+}
+
+.wedding #images-box {
+    text-align: center;	
+}
+
+.wedding.center{
+	margin: 0 auto;
+}
+
+.events-wreath {
+	padding-bottom: 25px;
+	padding-left: 0;
+}
+
+.contact h3 {
+	color: #F5F5DC;
+}
+
+.contact-wreath {
+	padding-bottom: 40px;
+	padding-left: 0;
+}
+
+.thumbnail {
+	width: 200px;
+	height: 170px;
+	overflow: hidden;
+}
+
+.text-muted {
+	color: #333;
+	font-size: 12px;
+}
