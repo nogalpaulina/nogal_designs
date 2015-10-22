@@ -1,0 +1,98 @@
+body {
+	font-family: 'Abel', sans-serif;
+	font-size: 20px;
+}
+
+#header {
+	width: 100%;
+	margin: 0 auto;
+}
+
+h1, h2 {
+	font-family: "Impact";
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	letter-spacing: 4px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 4.6em;
+	padding: 30px 30px;
+	color: rgba(5, 25, 2, 0.86);
+}
+
+h2 {
+	font-size: 2.5em;
+	padding: 50px 0px;
+}
+
+p {
+	padding-top: 3%;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.container video {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	z-index: -1;
+}
+
+#content {
+	width: 99%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.textBackground {
+	width: 80%;
+	background: rgba(228, 237, 227, 0.78);
+	margin: 0 auto;
+	padding: 2%;
+	text-align: center;
+}
+
+.col-md-4 {
+	text-align: center;
+	padding-top: 3%;
+}
+
+.icon {
+	width: 60px;
+	height: 60px;
+}
+
+.icon-map {
+	width: 82px;
+}
+
+ul {
+	list-style: none;
+}
+
+
+.img-responsive {
+	padding-top: 2%;
+}
+
+.form-horizontal {
+	padding-top: 2%;
+}
+
+.text-muted {
+	text-align: center;
+}
