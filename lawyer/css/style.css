@@ -1,0 +1,76 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #E0DFD7;
+}
+
+.container {
+    text-align: center;
+}
+
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+    background: url('../img/BG-dragme.jpg') no-repeat center center scroll;
+    padding: 220px 0;
+    color: #E8E8E3;     
+}
+
+.about {
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    display: none;
+    padding-top: 30px;
+}
+
+.image-bg-fixed-height {
+    background: url('../img/books.jpg') no-repeat center center scroll;
+    height: 450px;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+section {
+    padding: 20px 0;
+}
+
+.section-heading {
+    margin: 10px 0;
+    font-size: 4em;
+}
+
+.section-lead {
+    margin: 10px 0;
+}
+
+.section-paragraph {
+    margin: 10px 0;
+    font-family: 'Lato', sans-serif;
+}
+
+footer {
+    margin: 40px auto;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .section-heading {
+        font-size: 2em;
+    }
+}
